@@ -1,0 +1,7 @@
+In this script, the get_top_cryptocurrencies function uses the Coinpaprika API to fetch the top N cryptocurrencies by market capitalization. You can specify the number of top cryptocurrencies you want to retrieve by passing the n parameter to the function.
+
+In the example usage, we call get_top_cryptocurrencies with top_n = 10 to retrieve the top 10 cryptocurrencies. We then print various information for each currency, including name, symbol, rank, and market capitalization.
+
+This script allows you to quickly fetch and display the top cryptocurrencies by market capitalization. You can modify it to include additional data fields or customize the output based on your requirements.
+
+Make sure you have the requests library installed by running the command pip install requests.
